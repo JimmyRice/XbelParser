@@ -1,6 +1,6 @@
 # XBELParser
 
-XBELParser is not a true 'parser.' It is a simple processing library for XBEL (XML Bookmark Exchange Language).
+XBELParser is not a true **parser** It is a simple processing library for XBEL (XML Bookmark Exchange Language).
 
 ## What is XML Bookmark Exchange Language
 
