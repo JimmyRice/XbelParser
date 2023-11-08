@@ -34,14 +34,12 @@ public class XbelParser
             if (tagName == "folder")
             {
                 Folder folder = ProcessFolder(node);
-
                 folders.Add(folder);
             }
 
             if (tagName == "bookmark")
             {
                 Bookmark bookmark = ProcessBookmark(node);
-
                 bookmarks.Add(bookmark);
             }
         }
@@ -68,8 +66,7 @@ public class XbelParser
 
             if (tagName == "folder")
             {
-                var child = ProcessFolder(node);
-
+                Folder child = ProcessFolder(node);
                 folder.Children.Add(child);
             }
 
